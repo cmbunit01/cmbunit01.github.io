@@ -46,7 +46,7 @@ ul.menu li
 {
 
   display: block;
-  background-image: url('images/top.png');
+  background-image: url('images/top.png') no-repeat;
   overflow: hidden;
 
 }
