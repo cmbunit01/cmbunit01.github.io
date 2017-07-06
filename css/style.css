@@ -1,10 +1,27 @@
 /********************
 
-
+  Style for VOLCBAT.
 
   by Ben/Cyteless
 
 ********************/
+
+html, body
+{
+
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar
+{
+
+  display: block;
+  width: 100%;
+  background-color: rgba(249, 249, 249, 0.5);
+
+}
 
 /*Phone portrait*/
 @media only screen
