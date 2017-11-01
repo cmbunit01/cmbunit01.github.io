@@ -1,0 +1,469 @@
+/********************
+
+  Style for VOLCBAT.
+
+  by Ben/Cyteless
+
+********************/
+
+html, body
+{
+
+  margin: 0;
+  padding: 0;
+  font: 11pt 'Open Sans', sans-serif;
+
+}
+
+.navbar
+{
+
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(65, 65, 65, 0.3);
+  border-bottom: 1px solid rgba(65, 65, 65, 0.4);
+
+}
+
+ul.menu
+{
+
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+}
+
+ul.menu li
+{
+
+  list-style-type: none;
+
+}
+
+ul.menu li
+{
+
+  color: #FFFFFF;
+
+}
+
+.top
+{
+
+  display: block;
+  background-image: url('../images/top.png');
+  overflow: hidden;
+
+}
+
+.spacer
+{
+
+  width: 100%;
+
+}
+
+h1.top-title
+{
+
+  margin: 0;
+  padding: 0;
+  font-size: 72pt;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  color: #EF7206;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.top-text-wrap
+{
+
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+p.top-text
+{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  color: #FFFFFF;
+  text-align: justify;
+
+}
+
+.trio
+{
+
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.trio h1, .trio h2
+{
+
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+.trio h2
+{
+
+  font-size: 14pt;
+
+}
+
+.tribox p
+{
+
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 12pt;
+
+}
+
+.videobox .videotext
+{
+
+  background-color: #227637;
+
+}
+
+.videobox .videotext h1
+{
+
+  font-size: 36pt;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.videobox iframe
+{
+
+  display: block;
+
+}
+
+footer
+{
+
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+
+}
+
+/*Phone portrait*/
+@media only screen
+and (max-width: 320px)
+{
+
+
+
+}
+/*Phone landscape*/
+@media only screen
+and (min-width: 321px)
+{
+
+
+
+}
+/*Bigger phone/smaller tablet*/
+@media only screen
+and (min-width: 640px)
+{
+
+
+
+}
+/*Tablet*/
+@media only screen
+and (min-width: 768px)
+{
+
+
+
+}
+/*Tablet landscape/small screen*/
+@media only screen
+and (min-width: 1024px)
+{
+
+
+
+}
+/*Medium screens*/
+@media only screen
+and (min-width: 1280px)
+and (max-width: 1366px)
+{
+
+
+
+}
+/*Bigger medium screens*/
+@media only screen
+and (min-width: 1367px)
+and (max-width: 1680px)
+{
+
+
+
+}
+/*High to HD screens*/
+@media only screen
+and (min-width: 1680px)
+and (max-width: 1920px)
+{
+
+  ul.menu.hor li
+  {
+
+    padding: 20px 30px;
+    display: inline-block;
+
+  }
+
+  ul.menu.hor li:hover
+  {
+
+    text-decoration: underline;
+
+  }
+
+  ul.menu.main
+  {
+
+    float: right;
+
+  }
+
+  .top
+  {
+
+    width: 100%;
+    height: 100vh;
+
+  }
+
+  .spacer
+  {
+
+    height: 45%;
+
+  }
+
+  .top-wrap
+  {
+
+    height: 55%;
+
+  }
+
+  .info
+  {
+
+    height: 40%;
+
+  }
+
+  .top-text-wrap
+  {
+
+    height: 40%;
+
+  }
+
+  h1.top-title
+  {
+
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+
+
+  }
+
+  p.top-text
+  {
+
+    margin: 0 auto;
+    width: 45%;
+
+  }
+
+  .trio-wrap
+  {
+
+    height: 60%;
+    width: 100%;
+    display: block;
+
+  }
+
+  .trio
+  {
+
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+
+  }
+
+  .trio .tribox
+  {
+
+    display: table-cell;
+    width: 33%;
+    height: 100%;
+    vertical-align: top;
+
+  }
+
+  .trio .tribox p
+  {
+
+    width: 60%;
+
+  }
+
+  .videobox
+  {
+
+    height: 600px;
+
+  }
+
+  .videobox .videotext
+  {
+
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+
+  }
+
+  .videobox .videotext .vidinfo
+  {
+
+    width: 60%;
+    margin: 0 auto;
+
+  }
+
+  .videobox .videotext .vidinfo tr
+  {
+
+    color: #FFFFFF;
+
+  }
+
+  .videobox .videotext .vidinfo tr td:first-child
+  {
+
+    width: 40%;
+
+  }
+
+  .videobox .videotext .vidinfo tr td:last-child
+  {
+
+    width: 60%;
+
+  }
+
+  .videobox .videotext .viddesc
+  {
+
+    width: 60%;
+    margin: 0 auto;
+    color: #FFFFFF;
+
+  }
+
+  .videobox .video
+  {
+
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    float: right;
+
+  }
+
+  .videobox .video .videocontainer
+  {
+
+
+
+  }
+
+  .videobox .video .videocontainer iframe
+  {
+
+    margin: 15% auto;
+
+  }
+
+  .news
+  {
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    display: block;
+
+  }
+
+  .news .article
+  {
+
+    width: 60%;
+    float: left;
+
+  }
+
+  .news .article img
+  {
+
+    width: 80%;
+    height: auto;
+
+  }
+
+  footer
+  {
+
+
+
+  }
+
+  .foot
+  {
+
+    height: 160px;
+
+  }
+
+}
+/*Over 1080p*/
+@media only screen
+and (min-width: 1921px)
+{
+
+
+
+}
