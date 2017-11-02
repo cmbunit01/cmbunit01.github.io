@@ -68,7 +68,7 @@ p
 .navmenu ul.top li
 {
 
-  flex-grow: 1;
+  flex-grow: 0;
 
 }
 
@@ -120,6 +120,7 @@ p
 .navbar ul li
 {
 
+  padding-top: 5px;
   flex-grow: 1;
   font-size: 0.8em;
 
@@ -443,6 +444,7 @@ footer ul.social li
 /*Media queries*/
 
 @media screen   and (max-height: 420px)
+                and (max-width: 768px)
 {
 
   .navmenu
@@ -524,6 +526,58 @@ footer ul.social li
 
     display: block;
     margin-bottom: 0;
+
+  }
+
+}
+
+@media screen   and (min-width: 768px)
+{
+
+  .navmenu
+  {
+
+    display: flex;
+    top: 0;
+    left: 0;
+
+  }
+
+  .navmenu ul.top
+  {
+
+    width: 50%;
+    float: left;
+    flex-grow: 1;
+    display: flex;
+    position: relative;
+
+  }
+
+  .navmenu ul.top li
+  {
+
+    flex-grow: 0;
+
+  }
+
+  .navbar
+  {
+
+    width: 50%;
+    height: 60px;
+    float: right;
+    display: block;
+    flex-grow: 1;
+    position: relative;
+    display: block;
+
+  }
+
+  header.hero
+  {
+
+    background-image: url('../images/top-tab-3x.png');
 
   }
 
