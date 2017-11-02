@@ -271,6 +271,15 @@ article.homecontent ul li:last-child
 
 }
 
+ul.asides
+{
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
 aside.newsfeed h1, aside.videofeed h1, aside.videofeed h2
 {
 
@@ -316,8 +325,6 @@ aside.videofeed
 
 aside.newsfeed article
 {
-
-  padding: 32px 0;
 
 }
 
@@ -512,25 +519,11 @@ footer ul.social li
 
   }
 
-  aside.newsfeed article header img.newsintro
+  footer
   {
 
-    margin: 0 32px;
     display: block;
-    width: 50%;
-    height: auto;
-
-  }
-
-  .videoWrapper
-  {
-
-    width: 60%;
-    margin: 0 32px;
-    position: relative;
-    padding-bottom: 35%;
-    padding-top: 25px;
-    height: 0;
+    margin-bottom: 0;
 
   }
 
