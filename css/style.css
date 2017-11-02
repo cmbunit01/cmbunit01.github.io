@@ -140,7 +140,7 @@ header.hero
   position: relative;
   border-bottom: 2px solid #F67604;
   background-image: url('../images/cover-smart-3x.png');
-  background-size:cover;
+  background-size: cover;
 
 }
 
@@ -310,7 +310,7 @@ aside.videofeed
 {
 
   background-color: #EBEBEB;
-  padding-bottom: 32px;  
+  padding-bottom: 32px;
 
 }
 
@@ -430,5 +430,109 @@ footer ul.social li
 {
 
   font-size: 1em;
+
+}
+
+/*Media queries*/
+
+@media screen   and   (max-width: 568px)
+                and   (max-height: 320px)
+{
+
+  .navmenu
+  {
+
+    display: flex;
+    top: 0;
+    left: 0;
+
+  }
+
+  .navmenu ul.top
+  {
+
+    width: 20%;
+    float: left;
+    flex-grow: 1;
+    display: block;
+    position: relative;
+
+  }
+
+  .navmenu ul.top li h1
+  {
+
+    display: none;
+
+  }
+
+  .navbar
+  {
+
+    width: 80%;
+    float: right;
+    display: block;
+    flex-grow: 1;
+    position: relative;
+    display: block;
+
+  }
+
+  header.hero
+  {
+
+    height: 300px;
+
+  }
+
+  header.hero h1
+  {
+
+    top: 80px;
+
+  }
+
+  header.hero h2
+  {
+
+    top: 130px;
+
+  }
+
+  #joinbig
+  {
+
+    top: 200px;
+
+  }
+
+  article.homecontent section.image
+  {
+
+    height: 300px;
+
+  }
+
+  aside.newsfeed article header img.newsintro
+  {
+
+    margin: 0 32px;
+    display: block;
+    width: 50%;
+    height: auto;
+
+  }
+
+  .videoWrapper
+  {
+
+    width: 60%;
+    margin: 0 32px;
+    position: relative;
+    padding-bottom: 35%;
+    padding-top: 25px;
+    height: 0;
+
+  }
 
 }
