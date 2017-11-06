@@ -54,6 +54,7 @@ p
 
   width: 100%;
   height: 60px;
+  overflow: hidden;
   margin: 0;
   padding: 0;
   background-color: #1D2025;
@@ -101,6 +102,7 @@ p
 {
 
   width: 100%;
+  height: 60px;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -112,7 +114,10 @@ p
 .navbar ul
 {
 
+  height: 100%;
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
 
 }
@@ -120,8 +125,12 @@ p
 .navbar ul li
 {
 
-  padding-top: 5px;
+  margin: 0;
+  padding: 0;
+  display: flex;
   flex-grow: 1;
+  align-items: center;
+  justify-content: center;
   font-size: 0.8em;
 
 }
@@ -201,7 +210,7 @@ article.homecontent section.intro
 article.homecontent section.intro h1
 {
 
-  padding-left: 32px;
+  padding: 0 32px;
   font-size: 1.2em;
 
 }
@@ -236,23 +245,17 @@ article.homecontent h2, article.homecontent h3
 {
 
   padding: 0;
-  padding-left: 32px;
+  padding: 0 32px;
   padding-bottom: 8px;
   margin: 0;
-
-}
-
-article.homecontent h2, article.homecontent h3
-{
-
-
 
 }
 
 article.homecontent p
 {
 
- margin: 0 32px;
+  margin: 0;
+  padding: 0 32px;
 
 }
 
@@ -286,16 +289,13 @@ aside.newsfeed h1, aside.videofeed h1, aside.videofeed h2
 
   color: #1D2025;
   margin: 0;
-  margin-left: 32px;
-  padding-top: 20px;
-  padding-bottom: 0px;
+  padding: 20px 32px;
 
 }
 
 aside.videofeed h2
 {
 
-  padding: 10px 0;
   font-size: 1.2em;
 
 }
@@ -344,8 +344,7 @@ aside.newsfeed article header h1
 {
 
   margin: 0;
-  margin-left: 32px;
-  padding: 10px 0;
+  padding: 10px 32px;
 
 }
 
@@ -353,8 +352,7 @@ aside.newsfeed article main p, aside.videofeed p
 {
 
   color: #323740;
-  margin: 0 32px;
-  padding: 0;
+  padding: 0 32px;
 
 }
 
@@ -362,7 +360,6 @@ aside.newsfeed article main p.readmore
 {
 
   font-weight: bold;
-  margin: 10px 32px;
 
 }
 
@@ -403,7 +400,8 @@ footer
 footer h1
 {
 
-  margin: 10px 0;
+  margin: 0;
+  padding: 10px 0;
   font-size: 1.4em;
   font-weight: normal;
 
@@ -412,7 +410,8 @@ footer h1
 footer h2
 {
 
-  margin: 10px 0;
+  padding: 10px 0;
+  margin: 0;
   font-size: 1.2em;
 
 }
@@ -420,7 +419,8 @@ footer h2
 footer p
 {
 
-  margin: 2px 0;
+  margin: 0;
+  padding: 2px 0;
   font-size: 0.8em;
 
 }
@@ -577,7 +577,97 @@ footer ul.social li
   header.hero
   {
 
+    background-image: url('../images/cover-tab-3x.png');
+
+  }
+
+  article.homecontent section.image
+  {
+
     background-image: url('../images/top-tab-3x.png');
+
+  }
+
+  article.homecontent section.intro h1
+  {
+
+    padding: 0 96px;
+
+  }
+
+  article.homecontent h2, article.homecontent h3
+  {
+
+    padding: 0 96px;
+    padding-bottom: 8px;
+
+  }
+
+  article.homecontent p
+  {
+
+    padding: 0 96px;
+
+  }
+
+  aside.newsfeed h1, aside.videofeed h1, aside.videofeed h2
+  {
+
+    padding: 20px 96px;
+
+  }
+
+  aside.newsfeed article header h1
+  {
+
+    padding: 10px 96px;
+
+  }
+
+  aside.newsfeed article main p, aside.videofeed p
+  {
+
+    padding: 0 96px;
+
+  }
+
+  aside.newsfeed article header img.newsintro
+  {
+
+    width: 65%;
+    height: auto;
+    margin: 0;
+    padding: 0 96px;
+
+  }
+
+  .videoWrapper
+  {
+
+    margin: 0 96px;
+    margin-bottom: -90px;
+    position: relative;
+    padding-bottom: 38.25%;
+    padding-top: 100px;
+    height: 0;
+
+  }
+
+  .videoWrapper iframe
+  {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+
+  }
+
+  footer
+  {
+
+    padding: 10px 96px;
 
   }
 
