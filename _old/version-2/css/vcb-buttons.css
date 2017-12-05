@@ -1,0 +1,38 @@
+/********************
+
+  Button package for VCB website
+
+  by Ben/Cyteless
+
+********************/
+
+.vcbutton
+{
+
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FBFBFB;
+  border: 1px solid #BDBDBD;
+  box-shadow: 1px 1px 2px #BDBDBD;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.vcbutton.block
+{
+
+  margin: 10px 0px;
+  display: block;
+
+}
+
+.vcbutton.primary
+{
+
+  color: #EFEFEF;
+  background-color: rgba(38,134,63,1);
+  border: 2px solid rgba(38,134,63,0);
+  box-shadow: 1px 1px 2px #13421F;
+
+}

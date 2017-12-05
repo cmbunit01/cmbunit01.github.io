@@ -1,38 +1,39 @@
-/********************
+/*
 
-  Button package for VCB website
+VCB Buttons
+by Ben/Cyteless
 
-  by Ben/Cyteless
+Button background: #F2F2F2;
+Button background gradient: rgb(242, 242, 242), rgba(213, 213, 213);
+Text colour: #18191B;
 
-********************/
+Primary background: #227637;
+Primary background gradient: rgb(34, 119, 55), rgb(30, 108, 50);
+Primary text: #F2F2F2;
 
-.vcbutton
+*/
+
+.btn:link, .btn:visited
 {
 
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #FBFBFB;
-  border: 1px solid #BDBDBD;
-  box-shadow: 1px 1px 2px #BDBDBD;
-  text-decoration: none;
+  position: relative;
+  padding: 20px 44px;
+  background-image: linear-gradient(to bottom right, rgb(242, 242, 242), rgba(213, 213, 213));
+  background-color: rgba(242, 242, 242, 1);
+  text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  color: #18191B;
 
 }
 
-.vcbutton.block
+.btn-primary:link, .btn-primary:visited
 {
 
-  margin: 10px 0px;
-  display: block;
-
-}
-
-.vcbutton.primary
-{
-
-  color: #EFEFEF;
-  background-color: rgba(38,134,63,1);
-  border: 2px solid rgba(38,134,63,0);
-  box-shadow: 1px 1px 2px #13421F;
+  background-image: linear-gradient(to bottom right, rgb(34, 119, 55), rgb(30, 108, 50));
+  background-color: #227637;
+  color: #F2F2F2;
 
 }
